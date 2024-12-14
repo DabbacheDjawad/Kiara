@@ -10,7 +10,7 @@ export default {
   theme: {
     colors :{
       'main-light-grey' : "#F1F1F0",
-      'main-medium-grey':"#8f8f8f",
+      'main-medium-grey':"#787878",
       'emphasis-grey':"rgba(0 , 0 , 0 , 0.65)",
       'black':"#000000",
       'white':"#FFFF"
@@ -38,6 +38,14 @@ export default {
         f:'Sansita',
       }
     },
+
+   screens:{
+      'xm': {'min': '300px'},
+      'sm':{'min' : '640px'},
+      'md':{'min' : '768px'},
+      'lg':{'min' : '1024px'},
+      'xl' : {'min' : '1280'},      
+    }
   },
   plugins: [],
 }

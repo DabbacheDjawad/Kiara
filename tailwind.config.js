@@ -13,7 +13,8 @@ export default {
       'main-medium-grey':"#787878",
       'emphasis-grey':"rgba(0 , 0 , 0 , 0.65)",
       'black':"#000000",
-      'white':"#FFFF"
+      'white':"#FFFF",
+      'strong-grey':"#212529"
     },
     extend: {
       keyframes:{
@@ -30,13 +31,23 @@ export default {
           '90%':{height:'90%'},
           '100%':{height:'100%'},
         },
+
+        rotation:{
+          '0%' : {transform : 'rotate(0deg)'},
+          '100%' : {transform : 'rotate(359deg)'}
+        }
       },
       animation :{
         navAnimation : 'navAnimation 1s',
+        rotation:'rotation 50s infinite'
       },
       fontFamily:{
         f:'Sansita',
-      }
+      },
+
+      backgroundImage: {
+        'videoImage': "url('assets/images/video-image.jpg')",
+      },
     },
 
    screens:{
@@ -46,6 +57,7 @@ export default {
       'lg':{'min' : '1024px'},
       'xl' : {'min' : '1280'},      
     }
+    
   },
   plugins: [],
 }

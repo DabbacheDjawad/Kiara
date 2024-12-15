@@ -45,7 +45,7 @@ const Heading = () => {
              voluptatibus harum, quibusdam ex repellat eaque!</p></div>
 
         {/* photos Carousel */}
-        <div className="mt-10 flex w-full">
+        <div className="mt-10 flex w-full pb-32">
         <Slider {...settings} className={`w-[100%]`}>    
             {/* im1 */}
             <div className='w-[400px]'>
@@ -53,7 +53,7 @@ const Heading = () => {
                 <div>
                     <div><p className="font-f font-medium text-[1.9em] text-center">Soft Leather Jackets</p></div>
                     <div><p className="font-f text-main-medium-grey text-center text-[1.2em] w-[70%] ml-[10%]">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p></div>
-                    <div className='ml-[10%]'><p className='bold font-thin font-f text-2xl underline'>Discover Now</p></div>
+                    <div className='ml-[10%]'><p className='bold font-extralight font-f text-2xl hover:underline'>Discover Now</p></div>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@ const Heading = () => {
                 <div>
                     <div><p className="font-f font-medium text-[1.9em] text-center">Soft Leather Jackets</p></div>
                     <div><p className="font-f text-main-medium-grey text-center text-[1.2em] w-[70%] ml-[10%]">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p></div>
-                    <div className='ml-[10%]'><p className='bold font-thin font-f text-2xl underline'>Discover Now</p></div>   
+                    <div className='ml-[10%]'><p className='bold font-extralight font-f text-2xl hover:underline'>Discover Now</p></div>   
                 </div>
             </div>
 
@@ -74,7 +74,7 @@ const Heading = () => {
                 <div>
                     <div><p className="font-f font-medium text-[1.9em] text-center">Soft Leather Jackets</p></div>
                     <div><p className="font-f text-main-medium-grey text-center text-[1.2em] w-[70%] ml-[10%]">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p></div>
-                    <div className='ml-[10%]'><p className='bold font-thin font-f text-2xl underline'>Discover Now</p></div>
+                    <div className='ml-[10%]'><p className='bold font-extralight font-f text-2xl hover:underline'>Discover Now</p></div>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@ const Heading = () => {
                 <div>
                     <div><p className="font-f font-medium text-[1.9em] text-center">Soft Leather Jackets</p></div>
                     <div><p className="font-f text-main-medium-grey text-center text-[1.2em] w-[70%] ml-[10%]">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p></div>
-                    <div className='ml-[10%]'><p className='bold font-thin font-f text-2xl underline'>Discover Now</p></div>              
+                    <div className='ml-[10%]'><p className='bold font-extralight font-f text-2xl hover:underline'>Discover Now</p></div>              
                 </div>
             </div>
 
@@ -96,7 +96,7 @@ const Heading = () => {
                 <div>
                     <div><p className="font-f font-medium text-[1.9em] text-center">Soft Leather Jackets</p></div>
                     <div><p className="font-f text-main-medium-grey text-center text-[1.2em] w-[70%] ml-[10%]">Scelerisque duis aliquam qui lorem ipsum dolor amet, consectetur adipiscing elit.</p></div>
-                    <div className='ml-[10%]'><p className='bold font-thin font-f text-2xl underline'>Discover Now</p></div>
+                    <div className='ml-[10%]'><p className='bold extralight font-f text-2xl hover:underline'>Discover Now</p></div>
                 </div>
             </div>
 

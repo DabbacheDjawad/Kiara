@@ -17,9 +17,12 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import PevArrow from './PevArrow'
 import NextArrow from './NextArrow'
-
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { useState } from 'react'
 const ShoppingProcess = () => {
 
+    const [hoveredIndex , setHoveredIndex] = useState(null);
+    
     //carousel
     var settings = {
         dots: true,
@@ -130,7 +133,7 @@ const ShoppingProcess = () => {
     const shoppingTypes = [men , women , accessories];
     const newArrivals = [arrival1 , arrival2 , arrival3 , arrival4 , arrival5 , arrival6];
   return (
-    <div className="mt-32"> {/*section div*/}
+    <div className="mt-32 pb-32"> {/*section div*/}
         <div className='w-full mx-auto flex gap-10 flex-wrap md:ml-auto'> {/*icons container*/}
             {
                 process.map((item , index) =>(
@@ -154,7 +157,7 @@ const ShoppingProcess = () => {
                     </li>
                 ))
             }
-        </div>  
+        </div>      
 
 
             <div className='mt-32 text-center text-4xl hover:underline'><p>NEW ARRIVALS</p></div>
@@ -166,7 +169,14 @@ const ShoppingProcess = () => {
                     {
                         newArrivals.map((arriv , index) => (
                             <li key={index} className='list-none w-[20%] mx-auto px-4'>
-                                <img src={arriv.image} height={300} width={400} alt="image2" className='transition-transform hover:scale-95' />
+                                <div>
+                                    <img src={arriv.image} height={300} width={400} alt="image2"
+                                     className='transition-transform hover:scale-95'
+                                     onMouseEnter={()=>setHoveredIndex(index)} onMouseLeave={()=>setHoveredIndex(null)} />
+
+                                    <FontAwesomeIcon icon={faHeart} className={`${hoveredIndex === index?"opacity-100":"opacity-0"} p-1 absolute
+                                     z-50 ml-5 top-8 h-7 w-auto bg-white transition-opacity `}/>
+                                </div>
                                 <a href="#">{arriv.title}</a>
                                 <p>{arriv.price}</p>
                             </li>

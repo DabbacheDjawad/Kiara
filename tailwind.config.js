@@ -9,8 +9,8 @@ export default {
   ],
   theme: {
     colors :{
-      'main-light-grey' : "#F1F1F0",
-      'main-medium-grey':"#787878",
+      'main-light-grey' : "rgb(241, 241, 240 , 1)",
+      'main-medium-grey':"#A8A196",
       'emphasis-grey':"rgba(0 , 0 , 0 , 0.65)",
       'black':"#000000",
       'white':"#FFFF",
@@ -38,7 +38,6 @@ export default {
         }
       },
       animation :{
-        navAnimation : 'navAnimation 1s',
         rotation:'rotation 50s infinite'
       },
       fontFamily:{
@@ -47,7 +46,9 @@ export default {
 
       backgroundImage: {
         'videoImage': "url('assets/images/video-image.jpg')",
+        'signUpImage':"url(assets/images/pattern-bg.png)"
       },
+
     },
 
    screens:{

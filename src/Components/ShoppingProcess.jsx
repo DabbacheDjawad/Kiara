@@ -175,7 +175,7 @@ const ShoppingProcess = () => {
                                      onMouseEnter={()=>setHoveredIndex(index)} onMouseLeave={()=>setHoveredIndex(null)} />
 
                                     <FontAwesomeIcon icon={faHeart} className={`${hoveredIndex === index?"opacity-100":"opacity-0"} p-1 absolute
-                                     z-50 ml-5 top-8 h-7 w-auto bg-white transition-opacity `}/>
+                                     z-50 ml-5 top-8 h-7 w-auto bg-white transition-opacity rounded`} color='#F72C5B'/>
                                 </div>
                                 <a href="#">{arriv.title}</a>
                                 <p>{arriv.price}</p>

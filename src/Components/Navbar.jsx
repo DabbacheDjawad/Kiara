@@ -17,7 +17,7 @@ const Navbar = () => {
             <ul className={`text-emphasis-grey transition-all hover:[&>li]:text-black text-xl ml-32 sm:ml-0
             lg:gap-16 lg:justify-center lg:items-center lg:flex flex-col lg:flex-row  
              sm:bg-main-light-grey ${navigation == true?
-            "animate-navAnimation flex sm:mt-16 sm:w-full sm:text-3xl absolute sm:left-0 sm:text-center md:text-center":"hidden"}`} >
+            "flex sm:mt-16 sm:w-full sm:text-3xl absolute sm:left-0 sm:text-center md:text-center":"hidden"}`} >
                 <li className="hover:text-black transition-colors duration-200"><a href="#">Home</a></li>
                 <li className="hover:text-black transition-colors duration-200"><a href="#">Shop</a></li>
                 <li className="hover:text-black transition-colors duration-200"><a href="#">Blog</a></li>

@@ -22,7 +22,7 @@ const VideoSection = () => {
         />
       </a>
     </div>
-  );
+  );  
 };
 
 export default VideoSection;

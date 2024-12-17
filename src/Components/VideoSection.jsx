@@ -4,7 +4,8 @@ import { faPlay } from "@fortawesome/free-solid-svg-icons";
 const VideoSection = () => {
   return (
     <div
-      className={`bg-cover bg-center bg-no-repeat bg-videoImage h-[800px] mb-24 flex`}
+      className={`bg-cover bg-center bg-no-repeat bg-videoImage 
+        xl:h-[700px] lg:h-[700px] mb-24 flex`}
     >
       <a
         href="https://www.youtube.com/@Dabbache-Djawad"
@@ -14,7 +15,7 @@ const VideoSection = () => {
         <img
           src={textImage}
           alt="img"
-          className=" align-middle z-0 animate-rotation"
+          className="align-middle z-0 animate-rotation"
         />
         <FontAwesomeIcon
           icon={faPlay}

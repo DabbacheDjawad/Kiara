@@ -6,7 +6,8 @@ import masterCard from '../assets/images/master-card.png'
 
 const Footer = () => {
   return (
-    <div className="w-[90%] flex md:flex-row lg:flex-row xl:flex-row md:justify-between flex-col lg:justify-between xl:justify-between mx-auto">
+    <div className="w-[90%] flex md:flex-row lg:flex-row xl:flex-row md:justify-between flex-col lg:justify-between xl:justify-between mx-auto
+    xm:gap-8 sm:gap-8 flex-wrap">
         <div className="flex">
             <p className="uppercase text-main-medium-grey">we ship with : </p>
             <img src={arct} alt="arct" />
@@ -19,7 +20,7 @@ const Footer = () => {
 
         
         <div>
-            <p className='text-strong-grey text-xl'>© Copyright 2022 Kaira. All rights reserved. Design by TemplatesJungle</p>
+            <p className='text-strong-grey text-xl mb-3'>© Copyright 2022 Kaira. All rights reserved. Design by TemplatesJungle</p>
             <p className='text-strong-grey text-xl'>Distribution By ThemeWagon</p>
         </div>
     </div>

@@ -42,8 +42,8 @@ const Comments = () => {
                     comments.map((comment , index) =>(
                         <ul key={index}>
                             <li>
-                                <blockquote className="w-1/2 mx-auto text-5xl font-semibold text-main-medium-grey font-serif text-center
-                                 leading-[3.8rem]">
+                                <blockquote className="lg:w-1/2 xl:w-1/2 md:w-2/3 mx-auto lg:text-5xl md:text-3xl sm:text-3xl xm:text-2xl
+                                 font-semibold text-main-medium-grey font-serif text-center leading-[3.8rem]">
                                     {comment.bigText}
                                 </blockquote>
                                 <p className="text-center text-2xl text-main-medium-grey mt-4">

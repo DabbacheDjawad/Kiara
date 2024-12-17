@@ -9,7 +9,7 @@ const Collection = () => {
             
             <div className='py-32 w-[50%] md:w-full sm:w-full xm:w-full '>
                 <h1 className='font-f uppercase text-5xl text-center'>classic winter collection</h1>
-                <p className='w-[80%] mx-auto mt-12 text-main-medium-grey line leading-8'>Dignissim lacus, turpis ut suspendisse vel tellus. Turpis purus, gravida orci,
+                <p className='w-[80%] mx-auto text-center mt-12 text-main-medium-grey line leading-8'>Dignissim lacus, turpis ut suspendisse vel tellus. Turpis purus, gravida orci,
                      fringilla a. Ac sed eu fringilla odio mi. Consequat pharetra at magna imperdiet cursus 
                      ac faucibus sit libero. Ultricies quam nunc, lorem sit lorem urna,
                      pretium aliquam ut. In vel, quis donec dolor id in. Pulvinar commodo mollis diam

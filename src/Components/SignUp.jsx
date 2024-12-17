@@ -10,8 +10,8 @@ const SignUp = () => {
         <h1 className="font-sans text-5xl font-normal text-center uppercase">signUp for our newsletter</h1>
         <form  className="text-center pt-12">
             <input type="text" placeholder="Your Email Adress" className="rounded-xl border-2 border-main-medium-grey
-            w-[60%] py-3 px-4 outline-none text-4xl mb-3"/><br />
-            <button className="w-[60%] bg-strong-grey text-white rounded-sm text-3xl py-2">SIGN UP</button>
+            lg:w-[60%] xl:w-[60%] py-3 px-4 outline-none xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl xm:text-xl mb-3"/><br />
+            <button className="w-[60%] md:w-[30%] sm:w-[30%] bg-strong-grey text-white rounded-sm text-3xl py-2">SIGN UP</button>
         </form>
 
         <div className="flex flex-wrap w-full mt-24 z-0 ">
@@ -24,7 +24,7 @@ const SignUp = () => {
         </div>
 
         <button className='font-sans bg-strong-grey text-white text-xl 
-        mx-auto ml-[43%] -translate-y-3 z-50 py-1 px-7'>Follow us on Instagram
+        mx-auto lg:ml-[43%] xl:ml-[43%] xm:ml-[15%] sm:ml-[35%] -translate-y-3 z-50 py-1 px-7'>Follow us on Instagram
         </button>
     </div>
   )

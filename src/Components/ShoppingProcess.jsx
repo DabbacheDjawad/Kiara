@@ -148,13 +148,15 @@ const ShoppingProcess = () => {
 
 
         {/*shop categories container*/}
-        <div className='flex gap-8 flex-wrap w-full mt-20'>   
+        <div className='flex lg:gap-8 xl:gap-8 md:gap-0 sm:gap-0 xm:gap-5 flex-wrap w-[full] mt-20'>   
         {
                 shoppingTypes.map((type , index) =>(
-                    <li key={index} className='list-none w-[30%] mx-auto'>
-                        <img src={type.image} alt="model" height={300} width={400} className='hover:scale-95 transition-transform'/>
-                        <a href='#' className='bold text-2xl py-4 font-f md:text-xl sm:text-lg uppercase text-main-medium-grey hover:underline'>{type.description}</a>
-                    </li>
+                    <ul className='w-[300px] mx-auto'>
+                        <li key={index} className='list-none w-full mx-auto'>
+                            <img src={type.image} alt="model" className='hover:scale-95 transition-transform w-full'/>
+                            <a href='#' className='bold text-2xl py-4 font-f md:text-xl sm:text-lg xm:text-base uppercase text-main-medium-grey hover:underline'>{type.description}</a>
+                        </li>
+                    </ul>
                 ))
             }
         </div>      
